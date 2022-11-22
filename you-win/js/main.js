@@ -32,7 +32,7 @@ document.body.onkeydown=(e)=>{
         document.getElementById('span').innerText=`You Win...! ${count}`;
         dino.style.left=0
         dino.style.top=0
-
-
+        topPx=0;
+        left=0
     }
 }
